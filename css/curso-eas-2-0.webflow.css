@@ -1593,7 +1593,7 @@
 }
 
 .spark-secondary-background-card {
-  background-color: #ffcdd5;
+  background-color: #ff3456;
   border-radius: 12px;
   padding: 32px;
 }
@@ -1619,11 +1619,12 @@
 }
 
 .spark-section h5 {
+  color: #fff;
   margin-top: 1.5rem;
   margin-bottom: .5rem;
   font-family: Montserrat, sans-serif;
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.3;
 }
 
@@ -1669,6 +1670,7 @@
 }
 
 .spark-section p {
+  color: #fff;
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
@@ -1704,7 +1706,12 @@
   line-height: 1;
 }
 
-.bold-text-33, .bold-text-34, .bold-text-35, .bold-text-36, .bold-text-37, .bold-text-38, .bold-text-39, .bold-text-40, .bold-text-41, .bold-text-42 {
+.bold-text-33 {
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+}
+
+.bold-text-34, .bold-text-35, .bold-text-36, .bold-text-37, .bold-text-38, .bold-text-39, .bold-text-40, .bold-text-41, .bold-text-42 {
   font-family: Montserrat, sans-serif;
 }
 
@@ -1818,6 +1825,10 @@
 
 .image-23 {
   border-radius: 10px;
+}
+
+.bold-text-43, .bold-text-44, .bold-text-45, .bold-text-46, .bold-text-47 {
+  font-size: 18px;
 }
 
 @media screen and (min-width: 1920px) {
