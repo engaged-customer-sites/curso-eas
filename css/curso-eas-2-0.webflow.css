@@ -801,7 +801,7 @@
 }
 
 .preview-include-tittle14copy {
-  color: #303030;
+  color: #fff;
   text-align: center;
   letter-spacing: -.5px;
   background-color: rgba(0, 0, 0, 0);
@@ -832,6 +832,7 @@
 
 .bold-text-16 {
   color: #ff3456;
+  font-size: 2.3rem;
 }
 
 .primary-button-3 {
@@ -841,6 +842,7 @@
   background-color: #2bdb5a;
   border-radius: 20px;
   justify-content: flex-end;
+  margin-top: 2rem;
   margin-bottom: 2rem;
   margin-left: 0;
   padding: 28px 100px;
@@ -853,7 +855,7 @@
 
 .primary-button-3:hover {
   background-color: #ff3456;
-  margin-top: 0;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -910,7 +912,7 @@
 }
 
 .section-8 {
-  background-color: rgba(87, 194, 218, .16);
+  background-color: #262626;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -1045,6 +1047,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
   padding-left: 69px;
   padding-right: 69px;
   display: flex;
@@ -1088,7 +1091,7 @@
 }
 
 .uui-text-size-medium {
-  color: #262626;
+  color: #fff;
   letter-spacing: normal;
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
@@ -1194,11 +1197,11 @@
 }
 
 .section-4 {
-  background-color: #f1f1f1;
+  background-color: #ff3456;
   justify-content: center;
   align-items: center;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: block;
 }
 
@@ -1225,7 +1228,7 @@
 }
 
 .section-9 {
-  background-color: #eaeaea;
+  background-color: rgba(182, 182, 182, .66);
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -1265,7 +1268,7 @@
 }
 
 .section-5 {
-  background-color: #e2e2e2;
+  background-color: #262626;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1283,6 +1286,7 @@
 }
 
 .section-6 {
+  background-color: #000;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -1340,17 +1344,18 @@
   color: #ff3456;
   font-family: Montserrat, sans-serif;
   font-size: 40px;
+  font-weight: 900;
 }
 
 .preview-include-detailsopy {
   max-width: 1000px;
-  color: #303030;
+  color: #fff;
   text-align: center;
   margin: 10px auto;
   padding: 0;
   font-family: Montserrat, sans-serif;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 27px;
 }
 
@@ -1453,7 +1458,8 @@
 }
 
 .bold-text-20 {
-  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
 }
 
 .preview-banner-2 {
@@ -1539,6 +1545,7 @@
 
 .container-4 {
   max-width: 1350px;
+  background-color: rgba(0, 0, 0, 0);
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
@@ -1556,7 +1563,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   padding-left: 100px;
   padding-right: 100px;
   display: block;
@@ -1564,7 +1571,7 @@
 
 .preview-includesas-deetails-copy-2-copy-copy {
   max-width: 1000px;
-  color: #303030;
+  color: #fff;
   text-align: center;
   margin-bottom: 0;
   margin-left: auto;
@@ -1613,7 +1620,8 @@
 
 .spark-section {
   width: 100%;
-  padding: 50px 149px 0;
+  background-color: #000;
+  padding: 50px 149px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   position: relative;
 }
@@ -1713,6 +1721,7 @@
 
 .bold-text-34, .bold-text-35, .bold-text-36, .bold-text-37, .bold-text-38, .bold-text-39, .bold-text-40, .bold-text-41, .bold-text-42 {
   font-family: Montserrat, sans-serif;
+  font-weight: 800;
 }
 
 .uui-heroheader20_lightssbox-wrapper-copy {
@@ -1829,6 +1838,73 @@
 
 .bold-text-43, .bold-text-44, .bold-text-45, .bold-text-46, .bold-text-47 {
   font-size: 18px;
+}
+
+.html-embed {
+  width: 640px;
+  height: 0;
+}
+
+.html-embed-2 {
+  width: 640px;
+  display: block;
+}
+
+.div-block-49 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: flex;
+}
+
+.uui-text-size-medium-copy {
+  color: #262626;
+  letter-spacing: normal;
+  color: #262626;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #fff;
+  letter-spacing: normal;
+  color: #262626;
+  letter-spacing: normal;
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.grid {
+  grid-template-rows: auto auto auto;
+}
+
+.spark-secondary-background-card-copy {
+  background-color: #5532fa;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.div-block-50 {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-direction: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2632,8 +2708,12 @@
     line-height: 1.4;
   }
 
-  .preview-include-tittle-section2py, .preview-include-title-coluns {
+  .preview-include-tittle-section2py {
     font-size: 32px;
+  }
+
+  .preview-include-title-coluns {
+    font-size: 22px;
   }
 
   .div-block-32 {
@@ -3194,9 +3274,26 @@
     font-size: 24px;
     line-height: 32px;
   }
+
+  .grid {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+  }
+
+  .div-block-50 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
 }
 
-#w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56808c-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce568093-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56809a-60aa5370 {
+#w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56808c-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce568093-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56809a-60aa5370, #w-node-_4c038be3-86b8-cd2c-bab5-1910d3eb9f51-fc19ea63, #w-node-_2d920a65-1648-59e4-03d2-f4c8969ac028-fc19ea63, #w-node-c7207760-d8f1-fae1-6d21-a874bb60fe7b-fc19ea63, #w-node-f066a9f3-d29f-8b53-28ca-528386b2e756-fc19ea63, #w-node-_1a81f90e-c93c-b419-0ec6-2eac8feea7e3-fc19ea63, #w-node-aea51663-e3bc-c79e-64da-999635782f9d-fc19ea63 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
