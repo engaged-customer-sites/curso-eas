@@ -1600,7 +1600,7 @@
 }
 
 .spark-secondary-background-card {
-  background-color: #ff3456;
+  background-color: #a7a3a8;
   border-radius: 12px;
   padding: 32px;
 }
@@ -1719,7 +1719,13 @@
   font-family: Montserrat, sans-serif;
 }
 
-.bold-text-34, .bold-text-35, .bold-text-36, .bold-text-37, .bold-text-38, .bold-text-39, .bold-text-40, .bold-text-41, .bold-text-42 {
+.bold-text-34, .bold-text-35, .bold-text-36, .bold-text-37, .bold-text-38, .bold-text-39, .bold-text-40, .bold-text-41 {
+  font-family: Montserrat, sans-serif;
+  font-weight: 800;
+}
+
+.bold-text-42 {
+  color: #ff3456;
   font-family: Montserrat, sans-serif;
   font-weight: 800;
 }
@@ -1890,7 +1896,7 @@
 }
 
 .spark-secondary-background-card-copy {
-  background-color: #5532fa;
+  background-color: #ff3456;
   border-radius: 12px;
   padding: 32px;
 }
@@ -1905,6 +1911,43 @@
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.div-block-51 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.div-block-52 {
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.div-block-53 {
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  display: flex;
+}
+
+.div-block-54, .div-block-55, .div-block-56 {
+  justify-content: center;
+  display: flex;
+}
+
+.spark-secondary-backgrou1nd-card-copy {
+  background-color: #676568;
+  border-radius: 12px;
+  padding: 32px;
+}
+
+.spark-secondary-background-c2ard-copy {
+  background-color: #747275;
+  border-radius: 12px;
+  padding: 32px;
 }
 
 @media screen and (min-width: 1920px) {
