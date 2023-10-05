@@ -2277,9 +2277,9 @@
   margin-top: 0;
   margin-bottom: 0;
   font-family: Montserrat, sans-serif;
-  font-size: 44px;
+  font-size: 28px;
   font-weight: 900;
-  line-height: 52px;
+  line-height: 35px;
 }
 
 .brix---card {
@@ -2334,6 +2334,47 @@
 .section-10 {
   background-color: #fff7f7;
   padding-top: 20px;
+}
+
+.div-block-58 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.primasry-button-3-copy {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #2bdb5a;
+  border-radius: 20px;
+  justify-content: flex-end;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0;
+  padding: 28px 60px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  display: inline-block;
+}
+
+.primasry-button-3-copy:hover {
+  background-color: var(--indian-red);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.list-item-4 {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+}
+
+.list {
+  text-align: center;
 }
 
 @media screen and (min-width: 1920px) {
@@ -2874,6 +2915,19 @@
   }
 
   .primary-button-4:hover {
+    margin-top: 0;
+    margin-bottom: 36px;
+  }
+
+  .primasry-button-3-copy {
+    margin-top: 0;
+    margin-bottom: 38px;
+    margin-left: 11px;
+    padding: 16px 30px;
+    font-size: 16px;
+  }
+
+  .primasry-button-3-copy:hover {
     margin-top: 0;
     margin-bottom: 36px;
   }
@@ -3445,7 +3499,7 @@
     grid-template-columns: 1fr;
   }
 
-  .primary-button-4 {
+  .primary-button-4, .primasry-button-3-copy {
     justify-content: center;
     align-items: center;
     margin-left: 0;
@@ -3952,8 +4006,8 @@
   }
 
   .brix---display-3 {
-    font-size: 26px;
-    line-height: 39px;
+    font-size: 24px;
+    line-height: 35px;
   }
 
   .div-block-57 {
@@ -3974,22 +4028,23 @@
   .brix---mg-bottom-24px-2 {
     margin-bottom: 16px;
   }
+
+  .primasry-button-3-copy {
+    justify-content: center;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 15px 25px;
+    font-size: 16px;
+    display: flex;
+  }
 }
 
 #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56808c-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce568093-60aa5370, #w-node-b5ec14bb-1849-0fc3-226f-1ce7ce56809a-60aa5370 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_01255a77-d342-1361-0c5d-2b3c353fcea2-fc19ea63 {
-  grid-area: span 1 / span 3 / span 1 / span 3;
-}
-
 #w-node-_424cf36e-5e9d-2d0f-418a-d3df5cd56e1c-fc19ea63 {
   grid-area: span 2 / span 1 / span 2 / span 1;
-}
-
-#w-node-fcf6ea7b-fd21-c621-30ca-cf2bb7280e21-fc19ea63 {
-  grid-area: span 1 / span 3 / span 1 / span 3;
 }
 
 #w-node-_4c038be3-86b8-cd2c-bab5-1910d3eb9f51-fc19ea63, #w-node-_2d920a65-1648-59e4-03d2-f4c8969ac028-fc19ea63, #w-node-c7207760-d8f1-fae1-6d21-a874bb60fe7b-fc19ea63, #w-node-f066a9f3-d29f-8b53-28ca-528386b2e756-fc19ea63, #w-node-_1a81f90e-c93c-b419-0ec6-2eac8feea7e3-fc19ea63, #w-node-aea51663-e3bc-c79e-64da-999635782f9d-fc19ea63 {
