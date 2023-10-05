@@ -3107,6 +3107,10 @@
     margin-left: 0;
   }
 
+  .bold-text-13 {
+    font-size: 19px;
+  }
+
   .preview-include-tittsle-2-copy {
     font-size: 24px;
     line-height: 32px;
@@ -3133,7 +3137,7 @@
     margin-top: 0;
     margin-left: 0;
     padding: 15px 25px;
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
   }
 
@@ -3159,7 +3163,12 @@
     padding: 30px 20px;
   }
 
-  .preview-include-tittle-2, .preview-include-tittle-2-copy {
+  .preview-include-tittle-2 {
+    font-size: 15px;
+    line-height: 32px;
+  }
+
+  .preview-include-tittle-2-copy {
     font-size: 24px;
     line-height: 32px;
   }
@@ -3192,7 +3201,17 @@
     line-height: 32px;
   }
 
-  .section-4, .section-9 {
+  .section-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .image-13 {
+    max-width: 150%;
+    font-size: 20px;
+  }
+
+  .section-9 {
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -3245,7 +3264,7 @@
 
   .preview-banner-2 {
     background-image: none;
-    padding: 63px 10px 80px;
+    padding: 10px 10px 20px;
   }
 
   .uui-heroheader20_lightbox-image {
