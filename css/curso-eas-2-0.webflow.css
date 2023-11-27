@@ -1,7 +1,7 @@
 :root {
+  --black: #262626;
   --indian-red: #ff3456;
   --white: white;
-  --black: #262626;
   --spark-library-foreground-secondary: rgba(0, 0, 0, .76);
   --spark-library-foreground-interactive: #5532fa;
   --dim-grey: #676568;
@@ -508,10 +508,7 @@
 }
 
 .section-cursos.single-preview {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url('../images/banner-2.webp');
-  background-position: 100% 0;
-  background-size: cover;
+  background-color: var(--black);
   margin-top: -60px;
   margin-bottom: 0;
   padding-top: 161px;
@@ -2839,6 +2836,16 @@
   font-family: Montserrat, sans-serif;
 }
 
+.div-block-60 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.image-24 {
+  border-radius: 10px;
+}
+
 @media screen and (min-width: 1920px) {
   .button {
     margin-top: 47px;
@@ -4151,6 +4158,10 @@
     padding: 15px 25px;
     font-size: 14px;
     display: inline-block;
+  }
+
+  .button {
+    margin-bottom: 15px;
   }
 
   .preview-footer-tittle {
